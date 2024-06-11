@@ -1,0 +1,72 @@
+body{
+    background-color: hsla(211, 19%, 28%, 0.76);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+
+/* .header{
+    background-color: hsla(211, 19%, 28%, 0.76);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-align: center;
+}  */
+
+
+.weatherForm{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.card{
+    background: hsla(211, 19%, 28%, 0.76);
+    color: lightblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    text-align: center;
+    color: lightblue;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    color: lightblue;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.citySearch{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: lightblue;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: lightblue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 7px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(105, 191, 219);
+}
